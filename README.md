@@ -46,8 +46,8 @@ able to type `make` to build the project.
     test: test.native
 
     %.native: 
-	ocamlbuild -use-ocamlfind $@
-	mv $@ $*
+        ocamlbuild -use-ocamlfind $@
+        mv $@ $*
 
     .PHONY: test default
 
