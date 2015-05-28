@@ -20,8 +20,6 @@ run:
     make
     ./main
 
-Then you should 
-
 # The source code
 
 The `src/` directory defines three things:
